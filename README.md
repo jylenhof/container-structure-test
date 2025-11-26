@@ -37,6 +37,12 @@ curl -LO https://github.com/GoogleContainerTools/container-structure-test/releas
 > [!warning]
 > Container builds are currently not updated with new releases
 
+Alternative installation method if you are using [mise](https://github.com/jdx/mise), you can install it globally by using a command like :
+
+```shell
+mise use -g container-structure-test@latest
+```
+
 Additionally, a container image for running tests through Google Cloud Builder can be found
 at `gcr.io/gcp-runtimes/container-structure-test:latest`.
 
